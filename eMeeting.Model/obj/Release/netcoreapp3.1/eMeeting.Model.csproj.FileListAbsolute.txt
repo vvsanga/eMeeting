@@ -1,0 +1,9 @@
+C:\DriveD\Projects\eMeeting\eMeeting.Model\bin\Release\netcoreapp3.1\eMeeting.Model.deps.json
+C:\DriveD\Projects\eMeeting\eMeeting.Model\bin\Release\netcoreapp3.1\eMeeting.Model.dll
+C:\DriveD\Projects\eMeeting\eMeeting.Model\bin\Release\netcoreapp3.1\eMeeting.Model.pdb
+C:\DriveD\Projects\eMeeting\eMeeting.Model\obj\Release\netcoreapp3.1\eMeeting.Model.AssemblyInfoInputs.cache
+C:\DriveD\Projects\eMeeting\eMeeting.Model\obj\Release\netcoreapp3.1\eMeeting.Model.AssemblyInfo.cs
+C:\DriveD\Projects\eMeeting\eMeeting.Model\obj\Release\netcoreapp3.1\eMeeting.Model.csproj.CoreCompileInputs.cache
+C:\DriveD\Projects\eMeeting\eMeeting.Model\obj\Release\netcoreapp3.1\eMeeting.Model.dll
+C:\DriveD\Projects\eMeeting\eMeeting.Model\obj\Release\netcoreapp3.1\eMeeting.Model.pdb
+C:\DriveD\Projects\eMeeting\eMeeting.Model\obj\Release\netcoreapp3.1\eMeeting.Model.csprojAssemblyReference.cache

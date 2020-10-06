@@ -1,0 +1,23 @@
+<h1>e-Meeting</h1>
+
+<div class="imgcontainer">
+  <img src="assets/img_avatar2.png" alt="Avatar" class="avatar">
+</div>
+
+<form [formGroup]="loginForm" (ngSubmit)="LoginProcess()"> 
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" formControlName="UserName" autofocus>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" formControlName="Password" autofocus>
+        
+    <button type="submit">Login</button>
+
+    <div class="showerror" *ngIf="loginError">
+      <p>
+        <strong>** {{ loginMessage }}</strong>
+      </p>
+    </div> 
+  </div>
+</form>

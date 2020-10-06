@@ -1,0 +1,46 @@
+<div class="container-fluid text-center">
+    <div class="row content">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10 text-left">
+            <h2>
+                {{title}}
+            </h2>
+            <br>
+            <form [formGroup]="formPostMeeting" (ngSubmit)="MeetingModifyProcess()">
+                <label><b>Subject</b></label>
+                <input type="text" placeholder="Subject..." formControlName="Subject" [(ngModel)]="meeting.Subject" *ngIf="meeting" autofocus  >
+
+                <label><b>Agenda</b></label>
+                <input type="text" placeholder="Agenda..." formControlName="Agenda">
+
+                <label><b>Schedule</b></label>
+                <input type="datetime-local" formControlName="Schedule">
+
+                <label><b>Attendees</b></label>
+                
+                <ng-multiselect-dropdown formControlName="Attendees"
+                [placeholder]="'Select Attendees'"
+                [settings]="dropdownSettings"
+                [data]="attendees"
+                [(ngModel)]="selectedItems"                
+                (onSelect)="onItemSelect($event)"
+                (onSelectAll)="onSelectAll($event)"
+              >
+              </ng-multiselect-dropdown>
+
+             
+
+              <br>
+
+                <input type="submit" value="Submit">
+
+            </form>
+            <div class="showerror" *ngIf="isError">
+                <p>
+                    <strong>** {{ msgError }}</strong>
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+</div>

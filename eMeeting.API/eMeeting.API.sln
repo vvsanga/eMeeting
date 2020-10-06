@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eMeeting.API", "eMeeting.API.csproj", "{11E60A5F-EE4F-4A19-997D-D43B3973F6D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eMeeting.Model", "..\eMeeting.Model\eMeeting.Model.csproj", "{37C3F16E-DD5C-4CC0-A8F5-71F61E0CB81F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11E60A5F-EE4F-4A19-997D-D43B3973F6D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E60A5F-EE4F-4A19-997D-D43B3973F6D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E60A5F-EE4F-4A19-997D-D43B3973F6D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E60A5F-EE4F-4A19-997D-D43B3973F6D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C3F16E-DD5C-4CC0-A8F5-71F61E0CB81F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C3F16E-DD5C-4CC0-A8F5-71F61E0CB81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C3F16E-DD5C-4CC0-A8F5-71F61E0CB81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C3F16E-DD5C-4CC0-A8F5-71F61E0CB81F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A962EDD-2032-47B2-812F-1A5D246B19F6}
+	EndGlobalSection
+EndGlobal
